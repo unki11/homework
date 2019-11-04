@@ -2,13 +2,13 @@ package oop.modifier6;
 
 public class Student {
 	
-	String name;
-	int kor;
-	int eng;
-	int math;
-	int total;
-	double avg;
-	boolean pass;
+	private String name;
+	private int kor;
+	private int eng;
+	private int math;
+	private int total;
+	private double avg;
+	private boolean pass;
 	
 	Student(String name,int kor,int eng,int math){
 		
